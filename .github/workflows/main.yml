@@ -13,11 +13,11 @@ on:
       DEVICE_TREE_URL:
         description: Device Tree URL
         required: true
-        default: https://github.com/a02-trial/android_device_samsung_a02-a02xx-user-11-RP1A.200720.012-A022FXXS3HER-release-keys
+        default: https://github.com/a02-trial/android_device_samsung_a02
       DEVICE_TREE_BRANCH:
         description: Device Tree Branch
         required: true
-        default: android-11
+        default: a02xx-user-11-RP1A.200720.012-A022FXXS3HERİ-release-keys
       DEVICE_PATH:
         description: Path the device tree should be synced to, relative to source root
         required: true
