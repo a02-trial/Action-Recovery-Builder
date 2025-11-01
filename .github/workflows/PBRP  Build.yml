@@ -1,4 +1,4 @@
-name: Recovery Build
+name: PBRP Build
 
 on:
   workflow_dispatch:
