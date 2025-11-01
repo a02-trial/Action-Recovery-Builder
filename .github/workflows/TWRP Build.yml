@@ -128,7 +128,7 @@ jobs:
     - name: Create roomservice.xml
       run: |
         mkdir -p .repo/local_manifests
-        cp -f ${GITHUB_WORKSPACE}/templates/*.xml .repo/local_manifests/
+        cp -f ${{ github.workspace }}/templates/*.xml .repo/local_manifests/
       working-directory: workspace
 
     - name: Clone device tree (TeamWin)
